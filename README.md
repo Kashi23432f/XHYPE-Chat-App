@@ -1,17 +1,69 @@
-# chat_app
+# XHYPE Chat App 🚀
 
-A new Flutter project.
+XHYPE is a modern, fast, and feature-rich real-time messaging application designed for seamless communication. Built with a focus on speed, security, and a fluid user experience.
 
-## Getting Started
+![License](https://shields.io)
+![PRs Welcome](https://shields.io)
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+*   **Real-Time Messaging:** Instant message delivery and receipt utilizing WebSocket technology.
+*   **Secure Authentication:** User signup, login, and protected sessions (JWT / OAuth)
+*   **Responsive Design:** Dark mode support and an optimized UI for mobile, tablet, and desktop views.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🛠️ Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*   **Frontend:** [Flutter]
+*   **Backend:** [FireBase]
+*   **Database:** [Firestore]
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+*   Node.js (v18+ recommended) or your specific runtime environment.
+*   Package manager (npm, yarn, or pnpm).
+*   A running instance of your chosen database.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
+   cd xhype-chat-app
+   ```
+
+2. **Install dependencies:**
+   *For backend:*
+   ```bash
+   cd backend
+   npm install
+   ```
+   *For frontend:*
+   ```bash
+   cd ../frontend
+   npm install
+   ```
+
+3. **Environment Setup:**
+   Create a `.env` file in both the frontend and backend directories based on the `.env.example` files provided.
+   ```env
+   PORT=5000
+   DATABASE_URL=your_database_url
+   JWT_SECRET=your_secret_key
+   ```
+
+4. **Run the Application:**
+   *Start the backend:*
+   ```bash
+   cd backend
+   npm run dev
+   ```
+   *Start the frontend:*
+   ```bash
+   cd frontend
+   npm run dev
+   ```
+
+
